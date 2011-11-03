@@ -1,3 +1,9 @@
+# revision 23918
+# category Package
+# catalog-ctan /macros/latex/contrib/gnuplottex
+# catalog-date 2011-09-12 16:50:58 +0200
+# catalog-license gpl2
+# catalog-version 0.4.4
 Name:		texlive-gnuplottex
 Version:	0.4.4
 Release:	1
@@ -49,6 +55,7 @@ gnuplot and re-run the LaTeX job.
 #- source
 %doc %{_texmfdistdir}/source/latex/gnuplottex/gnuplottex.dtx
 %doc %{_texmfdistdir}/source/latex/gnuplottex/gnuplottex.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ gnuplot and re-run the LaTeX job.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
