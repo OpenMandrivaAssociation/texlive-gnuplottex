@@ -1,12 +1,12 @@
-# revision 27919
+# revision 23918
 # category Package
 # catalog-ctan /macros/latex/contrib/gnuplottex
-# catalog-date 2012-10-03 16:32:18 +0200
+# catalog-date 2011-09-12 16:50:58 +0200
 # catalog-license gpl2
-# catalog-version 0.4.5
+# catalog-version 0.4.4
 Name:		texlive-gnuplottex
-Version:	0.4.5
-Release:	1
+Version:	0.4.4
+Release:	2
 Summary:	Embed Gnuplot commands in LaTeX documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gnuplottex
@@ -55,3 +55,17 @@ gnuplot and re-run the LaTeX job.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.4.4-2
++ Revision: 752367
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.4.4-1
++ Revision: 718571
+- texlive-gnuplottex
+- texlive-gnuplottex
+- texlive-gnuplottex
+- texlive-gnuplottex
+
