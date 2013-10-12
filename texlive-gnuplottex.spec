@@ -1,12 +1,12 @@
-# revision 23918
+# revision 31597
 # category Package
 # catalog-ctan /macros/latex/contrib/gnuplottex
-# catalog-date 2011-09-12 16:50:58 +0200
+# catalog-date 2013-09-08 19:51:12 +0200
 # catalog-license gpl2
-# catalog-version 0.4.4
+# catalog-version 0.7.1
 Name:		texlive-gnuplottex
-Version:	0.4.4
-Release:	2
+Version:	0.7.1
+Release:	1
 Summary:	Embed Gnuplot commands in LaTeX documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gnuplottex
@@ -20,12 +20,12 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-Gnuplot code is extracted from the document and written to
-.gnuplot files. Then, if shell escape is enabled, the graph
+The package extracts Gnuplot code from the document and writes
+it to .gnuplot files. If shell escape is enabled, the graph
 files are automatically processed and converted to PostScript
 or PDF files, which will then be included. If shell escape is
-disabled, the user will have to manually run the files through
-gnuplot and re-run the LaTeX job.
+disabled, the user needs to run the files through gnuplot, and
+re-run the LaTeX job.
 
 %post
     %{_sbindir}/texlive.post
@@ -40,6 +40,7 @@ gnuplot and re-run the LaTeX job.
 %{_texmfdistdir}/tex/latex/gnuplottex/gnuplottex.sty
 %doc %{_texmfdistdir}/doc/latex/gnuplottex/README
 %doc %{_texmfdistdir}/doc/latex/gnuplottex/example-pdf.tex
+%doc %{_texmfdistdir}/doc/latex/gnuplottex/example.gnuplot
 %doc %{_texmfdistdir}/doc/latex/gnuplottex/gnuplottex.pdf
 %doc %{_texmfdistdir}/doc/latex/gnuplottex/gpl.txt
 #- source
@@ -55,17 +56,3 @@ gnuplot and re-run the LaTeX job.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.4.4-2
-+ Revision: 752367
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.4.4-1
-+ Revision: 718571
-- texlive-gnuplottex
-- texlive-gnuplottex
-- texlive-gnuplottex
-- texlive-gnuplottex
-
