@@ -1,11 +1,11 @@
-# revision 31597
+# revision 32160
 # category Package
 # catalog-ctan /macros/latex/contrib/gnuplottex
-# catalog-date 2013-09-08 19:51:12 +0200
+# catalog-date 2013-11-16 13:10:59 +0100
 # catalog-license gpl2
-# catalog-version 0.7.1
+# catalog-version 0.7.2
 Name:		texlive-gnuplottex
-Version:	0.7.1
+Version:	0.7.2
 Release:	1
 Summary:	Embed Gnuplot commands in LaTeX documents
 Group:		Publishing
