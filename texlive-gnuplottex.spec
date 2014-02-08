@@ -6,7 +6,7 @@
 # catalog-version 0.4.4
 Name:		texlive-gnuplottex
 Version:	0.4.4
-Release:	2
+Release:	3
 Summary:	Embed Gnuplot commands in LaTeX documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gnuplottex
