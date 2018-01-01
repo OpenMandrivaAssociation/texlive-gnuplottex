@@ -1,9 +1,3 @@
-# revision 32277
-# category Package
-# catalog-ctan /macros/latex/contrib/gnuplottex
-# catalog-date 2013-11-29 10:11:23 +0100
-# catalog-license gpl2
-# catalog-version 0.8
 Name:		texlive-gnuplottex
 Version:	0.9.2
 Release:	1
@@ -37,16 +31,10 @@ re-run the LaTeX job.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/gnuplottex/gnuplottex.sty
-%doc %{_texmfdistdir}/doc/latex/gnuplottex/README
-%doc %{_texmfdistdir}/doc/latex/gnuplottex/SomeValuesForGnuplot.txt
-%doc %{_texmfdistdir}/doc/latex/gnuplottex/example-pdf.tex
-%doc %{_texmfdistdir}/doc/latex/gnuplottex/example.gnuplot
-%doc %{_texmfdistdir}/doc/latex/gnuplottex/gnuplottex.pdf
-%doc %{_texmfdistdir}/doc/latex/gnuplottex/gpl.txt
+%{_texmfdistdir}/tex/latex/gnuplottex
+%doc %{_texmfdistdir}/doc/latex/gnuplottex
 #- source
-%doc %{_texmfdistdir}/source/latex/gnuplottex/gnuplottex.dtx
-%doc %{_texmfdistdir}/source/latex/gnuplottex/gnuplottex.ins
+%doc %{_texmfdistdir}/source/latex/gnuplottex
 
 #-----------------------------------------------------------------------
 %prep
