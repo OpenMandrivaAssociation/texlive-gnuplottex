@@ -1,6 +1,6 @@
 Name:		texlive-gnuplottex
 Version:	0.9.2
-Release:	1
+Release:	2
 Summary:	Embed Gnuplot commands in LaTeX documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gnuplottex
