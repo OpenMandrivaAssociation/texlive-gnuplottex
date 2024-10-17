@@ -3,7 +3,7 @@ Version:	54758
 Release:	2
 Summary:	Embed Gnuplot commands in LaTeX documents
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gnuplottex
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/gnuplottex
 License:	GPL2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gnuplottex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gnuplottex.doc.r%{version}.tar.xz
